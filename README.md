@@ -1,6 +1,6 @@
 # Standalone Consulting Slide Creation Skill (`consulting-slide-creator`)
 
-A standalone Agent Skill (`SKILL.md`) designed to author, structure, and design executive-grade consulting slides using **McKinsey storyline mechanics** and **Deloitte visual design tokens**.
+A standalone Agent Skill (`SKILL.md`) designed to author, structure, and design executive-grade consulting slides using **structured storyline mechanics** and **executive visual design tokens**.
 
 Dual-target compatible with:
 1. **Microsoft 365 PowerPoint Copilot & Copilot Studio**
@@ -21,7 +21,7 @@ Dual-target compatible with:
 
 ## Core Slide Standards Enforced
 
-1. **Action Title Zone**: Bold 20–22pt assertion answering the "So what?" question, ending with a terminal period (`.`) rendered in Deloitte Green (`#86BC25`).
+1. **Action Title Zone**: Bold 20–22pt assertion answering the "So what?" question, ending with a terminal period (`.`) rendered in Accent Green (`#86BC25`).
 2. **Subtitle / Takeaway Line**: 12pt Cool Gray (`#53565A`) framing the core analytical finding.
 3. **Structured Body Grid**: Widescreen 16:9 canvas (13.333" × 7.5") following MECE grouping, <= 15 words per bullet, and bold anchor keywords.
 4. **Mandatory `Source:` Footer**: Standardized 8.5pt attribution at `Y=6.9"`.

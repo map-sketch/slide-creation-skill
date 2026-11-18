@@ -2,7 +2,7 @@
 name: consulting-slide-creator
 description: >-
   Guides the agent to design and author standalone consulting slides and complete executive presentations
-  using McKinsey storyline mechanics and Deloitte visual design tokens. Use this skill when the user
+  using structured storyline mechanics and executive visual design tokens. Use this skill when the user
   asks to create, draft, design, or layout any standalone slide, slide blueprint, executive summary,
   process flow, matrix, or comparison visual.
 ---
@@ -24,7 +24,7 @@ Every standalone slide crafted with this skill consists of four mandatory vertic
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ 1. ACTION TITLE ZONE (Top, 20–22pt Bold, Left-Aligned + Deloitte Green Dot) │
+│ 1. ACTION TITLE ZONE (Top, 20–22pt Bold, Left-Aligned + Accent Green Dot)  │
 │    Subtitle / Core Takeaway Line (12pt Cool Gray 11)                        │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 2. STRUCTURED BODY GRID (Governed by 1 of 10 Layout Archetypes)             │
@@ -48,7 +48,7 @@ Never use passive, descriptive topic headers. Every slide title must be an **Act
 - ✅ **Action Title (Required)**: *Top three third-party suppliers represent 68% of unmonitored accounts payable disbursements.*
 
 > [!IMPORTANT]
-> Every Action Title MUST end with a terminal period (`.`). In visual rendering, this period is colored in **Deloitte Green (`#86BC25`)**.
+> Every Action Title MUST end with a terminal period (`.`). In visual rendering, this period is colored in **Accent Green (`#86BC25`)**.
 
 ### The Source Footer Rule
 
@@ -67,7 +67,7 @@ When generating slide specifications or code, adhere strictly to these parameter
 | **Canvas Ratio** | 16:9 Widescreen | 13.333" Width × 7.5" Height |
 | **Primary Black** | Slide headers, cover background | `#000000` |
 | **Canvas White** | Content slide background, white cards | `#FFFFFF` |
-| **Deloitte Green** | Action Title terminal dot, primary accent bar, active stage | `#86BC25` |
+| **Accent Green** | Action Title terminal dot, primary accent bar, active stage | `#86BC25` |
 | **Mid Green** | Secondary accent, positive status, low-risk | `#26890D` |
 | **Cool Gray 11** | Subtitles, body text, footer attribution | `#53565A` |
 | **Cool Gray 2** | Card borders, table grid lines, connecting stems | `#D0D0CE` |
@@ -84,7 +84,7 @@ Match the user's objective to the exact visual archetype:
 
 ### 1. Cover Slide (Executive Hero)
 - **Best For**: Presentation kickoff, major project milestones, board presentations.
-- **Visual Mechanics**: Solid black background (`#000000`), practice kicker in Deloitte Green, large 36pt title with green period, 14pt subtitle, metadata block, and full-width bottom green accent bar (0.12" height).
+- **Visual Mechanics**: Solid black background (`#000000`), practice kicker in Accent Green, large 36pt title with green period, 14pt subtitle, metadata block, and full-width bottom green accent bar (0.12" height).
 
 ### 2. Executive Summary / SCQA Synthesis
 - **Best For**: High-level alignment, steering committee briefings, project kickoffs.
@@ -100,7 +100,7 @@ Match the user's objective to the exact visual archetype:
 
 ### 5. 5-Stage Process Flow / Lifecycle
 - **Best For**: Operational runbooks, investigation lifecycles, customer journeys, implementation roadmaps.
-- **Visual Mechanics**: Five horizontal chevrons across the canvas. Active or initial stage highlighted in Deloitte Green; subsequent stages in Cool Gray 2. Structured action cards positioned beneath each chevron.
+- **Visual Mechanics**: Five horizontal chevrons across the canvas. Active or initial stage highlighted in Accent Green; subsequent stages in Cool Gray 2. Structured action cards positioned beneath each chevron.
 
 ### 6. Split Comparison Table
 - **Best For**: Red Flags vs. Control Gaps, Current State vs. Future State, Pros vs. Cons.
@@ -180,6 +180,6 @@ When outputting a slide design for the user, use this standardized markdown form
 - [ ] Body content strictly follows one of the 10 consulting archetypes.
 - [ ] Bullet points are <= 15 words each with bold anchor words.
 - [ ] Categories satisfy the MECE principle (no overlap, no gaps).
-- [ ] Colors strictly follow the Deloitte palette tokens (`#86BC25`, `#000000`, `#53565A`, `#F5F6F7`).
+- [ ] Colors strictly follow the consulting palette tokens (`#86BC25`, `#000000`, `#53565A`, `#F5F6F7`).
 - [ ] Bottom `Source:` footer is present and properly formatted.
 - [ ] Zero fabricated figures, fake percentages, or simulated client names.

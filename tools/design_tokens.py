@@ -1,5 +1,5 @@
 """
-Deloitte-McKinsey Visual Design Tokens
+Executive Consulting Visual Design Tokens
 Shared constants module for PowerPoint presentation generation via python-pptx.
 """
 
@@ -11,7 +11,8 @@ from pptx.dml.color import RGBColor
 # ---------------------------------------------------------------------------
 PRIMARY_BLACK_HEX = "#000000"
 CANVAS_WHITE_HEX = "#FFFFFF"
-DELOITTE_GREEN_HEX = "#86BC25"
+ACCENT_GREEN_HEX = "#86BC25"
+DELOITTE_GREEN_HEX = ACCENT_GREEN_HEX  # Alias for backward compatibility
 MID_GREEN_HEX = "#26890D"
 COOL_GRAY_11_HEX = "#53565A"
 COOL_GRAY_2_HEX = "#D0D0CE"
@@ -36,7 +37,8 @@ def hex_to_rgbcolor(hex_str: str) -> RGBColor:
 # ---------------------------------------------------------------------------
 PRIMARY_BLACK = RGBColor(0x00, 0x00, 0x00)
 CANVAS_WHITE = RGBColor(0xFF, 0xFF, 0xFF)
-DELOITTE_GREEN = RGBColor(0x86, 0xBC, 0x25)
+ACCENT_GREEN = RGBColor(0x86, 0xBC, 0x25)
+DELOITTE_GREEN = ACCENT_GREEN  # Alias for backward compatibility
 MID_GREEN = RGBColor(0x26, 0x89, 0x0D)
 COOL_GRAY_11 = RGBColor(0x53, 0x56, 0x5A)
 COOL_GRAY_2 = RGBColor(0xD0, 0xD0, 0xCE)
