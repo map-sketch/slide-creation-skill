@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / Build
+dist/*.pptx
+dist/*.zip
+dist/powerpoint-copilot/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+
+# Keep dist directory itself
+!dist/.gitkeep
